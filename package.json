@@ -1,0 +1,23 @@
+{
+  "name": "google-sheets-data-analyst",
+  "version": "1.0.0",
+  "description": "AI data analyst using Google Sheets API and Daemo SDK for analyzing and updating spreadsheets",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "daemo-engine": "^0.2.4",
+    "dotenv": "^16.4.5",
+    "googleapis": "^144.0.0",
+    "reflect-metadata": "^0.2.2",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
+
